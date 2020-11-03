@@ -1,0 +1,110 @@
+h1{
+    color:red;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50pt;
+    background-color: black;
+    background: inherit;
+    
+ }
+
+
+    ul{
+        list-style: none;
+        padding: 0;
+    }
+   
+   
+    li{
+        display: inline-block;
+        margin-left:20px;
+        padding: 2px;
+        border-radius: 3px;
+       
+   
+    }
+   
+    li:first-child{
+        margin-left: 0;
+   
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+    header{
+
+        background-image: url("Basketball.jpg");
+        background-size: 100%;
+        text-align: center;
+        padding: 20px;
+        height: 100px;
+        background-color: black;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+   
+    header a{
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-top: 10px;
+    }
+    header .logo a{
+        background-image: url("Jordan23logo.jpg");
+        background-size: 100px;
+        background-repeat: no-repeat;
+        width: 100px;
+        display: inline-block;
+        height: 100px;
+        text-indent: -9999999px;
+        position: relative;
+        top:-40px;
+    }
+
+    .features{
+        background-color: black;
+        color: red;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+    .features img{
+        border-radius: 50%;
+        background-position: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .features h2{
+        text-align: center;
+    }
+ body{
+    color:red;
+    font-size: 18pt;
+    padding: auto;
+    margin: auto;
+    width: auto;
+    background: black;
+    background-image: url(https://cdn.wallpapersafari.com/7/53/qavm3o.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ 
+ h2{
+    background-color: black;
+    background: inherit;
+ }
+ p{
+    background-color: black;
+ }
+ button{
+    font-size: 35pt;
+    background-color: blue;
+    border: crimson;
+    color: white;
+ }
